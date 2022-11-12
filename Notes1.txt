@@ -1,0 +1,30 @@
+This is my first GitHUb Class
+This is my second commit
+
+GITHUB DAY 1:
+FIRST CODE PUSH:
+git init  ->>>> Create a .git folder in our computer
+git add .  ->>>
+git commit -m "first commit" ->>> Create a new version
+git branch -M main ->>> Creating a new branch called main
+git remote add origin YOURPROJECTLINK ->>> Connects Local Project(git) to Remote repository(github)
+git push -u origin main
+=========
+SECOND CODE PUSH:
+git add .
+git commit -m "updating the code"
+git push
+=========
+GIT IGNORE:
+WHAT?
+.gitignore should be created at the project level
+It is used to ignore/hide the files
+The files in .gitignore will not be added and committed and pushed
+-----------------------------------
+Example:
+create 3 files : Notes2.txt, Notes3.txt, Notes4.txt
+And Create .gitignore file in the project level
+Then put Notes3.txt path in .gitignore file
+Then commit
+Then push
+Then Notes3.txt should not be pushed in GitHub
